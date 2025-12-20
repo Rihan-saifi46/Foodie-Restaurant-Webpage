@@ -507,3 +507,20 @@ body.active { overflow: hidden; }
   font-size: 4rem;
   transition: var(--transition-1);
 }
+
+.search-submit:is(:hover, :focus) { color: var(--gainsboro); }
+
+.search-close-btn {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  cursor: url("../images/close.png"), auto;
+}
+
+
+
+
+
+/*-----------------------------------*\
+  #HERO
+\*-----------------------------------*/
