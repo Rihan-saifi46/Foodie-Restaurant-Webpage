@@ -385,3 +385,15 @@ body.active { overflow: hidden; }
   align-items: center;
   gap: 20px;
 }
+
+.search-btn {
+  color: var(--btn-color);
+  font-size: 20px;
+}
+
+.search-btn ion-icon { --ionicon-stroke-width: 50px; }
+
+.nav-toggle-btn {
+  display: grid;
+  gap: 4px;
+}
