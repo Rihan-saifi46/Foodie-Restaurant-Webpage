@@ -480,3 +480,30 @@ body.active { overflow: hidden; }
   opacity: 1;
   transform: translateY(50%);
 }
+
+.search-box {
+  position: relative;
+  width: 100%;
+  max-width: 500px;
+}
+
+.search-input {
+  color: var(--gainsboro);
+  font-size: 3rem;
+  padding: 20px 15px;
+  padding-inline-end: 70px;
+}
+
+.search-input::placeholder { color: var(--spanish-gray); }
+
+.search-input::-webkit-search-cancel-button { display: none; }
+
+.search-submit {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 15px;
+  color: var(--onyx);
+  font-size: 4rem;
+  transition: var(--transition-1);
+}
