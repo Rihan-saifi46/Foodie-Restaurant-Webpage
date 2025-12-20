@@ -355,3 +355,14 @@ body.active { overflow: hidden; }
   box-shadow: var(--shadow-1);
   animation: slideIn 0.5s ease-out forwards;
 }
+
+@keyframes slideIn {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(100%); }
+}
+
+.header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
