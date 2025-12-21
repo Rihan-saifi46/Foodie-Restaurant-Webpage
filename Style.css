@@ -811,3 +811,42 @@ body.active { overflow: hidden; }
 
 
 
+
+/*-----------------------------------*\
+  #CTA
+\*-----------------------------------*/
+
+.cta {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  overflow: hidden;
+}
+
+.cta::before {
+  bottom: auto;
+  top: 0;
+  background-image: url("../images/shape-grey.png");
+  transform: scaleY(-1);
+}
+
+.cta .section-title {
+  color: var(--white);
+  line-height: 1.5;
+  letter-spacing: -2px;
+  max-width: 17ch;
+  margin-inline: auto;
+}
+
+.cta .section-text {
+  color: var(--gainsboro);
+  margin-block: 25px 20px;
+}
+
+.cta .btn { margin-inline: auto; }
+
+.cta-banner {
+  position: relative;
+  aspect-ratio: 1 / 0.9;
+}
