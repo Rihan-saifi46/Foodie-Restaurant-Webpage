@@ -648,3 +648,29 @@ body.active { overflow: hidden; }
   top: 0;
   left: 100px;
 }
+
+.about .section-title {
+  max-width: 15ch;
+  margin-block: 40px 10px;
+  margin-inline: auto;
+}
+
+.about-list { margin-block: 20px 30px; }
+
+.about-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.about-item:not(:last-child) { margin-block-end: 10px; }
+
+.about-item ion-icon {
+  background-color: var(--deep-saffron);
+  color: var(--white);
+  font-size: 1.2rem;
+  padding: 4px;
+  border-radius: 50%;
+  --ionicon-stroke-width: 110px;
+}
