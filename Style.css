@@ -1293,3 +1293,47 @@ textarea.input-field {
 .back-top-btn:is(:hover, :focus) { background-color: var(--rich-black-fogra-29); }
 
 
+
+
+/*-----------------------------------*\
+  #MEDIA QUERIES
+\*-----------------------------------*/
+
+/**
+ * responsive for larger than 480px screen
+ */
+
+@media (min-width: 480px) {
+
+  /**
+   * HEADER
+   */
+
+  .header-btn-group .btn {
+    display: block;
+    --bg-color: var(--dark-orange);
+  }
+  
+}
+
+
+
+
+
+/**
+ * responsive for larger than 550px screen
+ */
+
+@media (min-width: 550px) {
+
+  /**
+   * REUSED STYLE
+   */
+
+  .container {
+    max-width: 550px;
+    width: 100%;
+    margin-inline: auto;
+  }
+
+  .has-scrollbar > li { min-width: calc(50% - 5px); }
