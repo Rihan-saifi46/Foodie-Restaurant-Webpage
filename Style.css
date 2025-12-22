@@ -1100,3 +1100,29 @@ body.active { overflow: hidden; }
 .blog-card .card-meta-link:is(:hover, :focus) .meta-info {
   color: var(--deep-saffron);
 }
+
+.blog-card .card-title {
+  font-size: var(--fs-3);
+  margin-block: 20px 15px;
+  transition: var(--transition-1);
+}
+
+.blog-card .card-title:is(:hover, :focus) {
+  opacity: 0.8;
+  text-decoration: underline;
+}
+
+.blog-card .card-text { margin-block-end: 20px; }
+
+.blog-card .btn-link {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.blog-card .btn-link ion-icon { font-size: 1.5rem; }
+
+.blog-card .btn-link:is(:hover, :focus) {
+  color: var(--deep-saffron);
+  gap: 10px;
+}
