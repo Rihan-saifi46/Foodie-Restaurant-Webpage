@@ -1589,3 +1589,50 @@ textarea.input-field {
   /**
    * HERO
    */
+   
+  .hero {
+    min-height: 660px;
+    display: grid;
+    align-items: center;
+  }
+
+  .hero-subtitle { --fs-3: 3.2rem; }
+
+  .hero-title {
+    --fs-1: 7rem;
+    letter-spacing: -2.5px;
+  }
+
+  .hero-text { font-size: var(--fs-3); }
+
+  .hero-banner {
+    max-width: 45%;
+    top: auto;
+    bottom: 0;
+    transform: translateY(0);
+  }
+
+  .hero-img-bg { transform: scale(1.4) translate(20px, -20px); }
+
+
+
+  /**
+   * FOOD MENU
+   */
+
+  .food-menu-list { grid-template-columns: repeat(3, 1fr); }
+
+  .food-menu-card { height: 100%; }
+
+
+
+  /**
+   * CTA
+   */
+
+  .cta-img { transform: scale(1.4) translate(20px, 40px); }
+
+  .cta-banner .abs-img { left: -50px; }
+
+  :is(.cta, .delivery) .section-title { line-height: 1.2; }
+
